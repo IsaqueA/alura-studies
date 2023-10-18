@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Alura Studies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Alura Studies é uma aplicação web desenvolvida em React, utilizando TypeScript e frameworks de CSS como SCSS. Ela foi criada com o objetivo de auxiliar as pessoas a gerenciar seu tempo de estudo de forma mais eficaz. Com Alura Studies, os usuários podem definir tópicos de estudo, estabelecer o tempo de estudo para cada tópico e usar um cronômetro integrado para controlar seu progresso. Esta página permite que os estudantes maximizem sua produtividade e mantenham o foco em seus objetivos de aprendizado.
 
-## Available Scripts
+## Características Principais
 
-In the project directory, you can run:
+- **Controle de Tempo:** Os usuários podem definir o tempo de estudo para cada tópico, com um limite máximo de 1 hora e 30 minutos. Isso ajuda a evitar a procrastinação e manter o estudo dentro de limites gerenciáveis.
 
-### `npm start`
+- **Lista de Tópicos de Estudo:** Os usuários podem criar uma lista de tópicos que desejam estudar. Isso permite que eles organizem seu estudo de acordo com suas prioridades e metas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Cronômetro Integrado:** Ao selecionar um tópico de estudo e clicar em "Começar", o cronômetro inicia a contagem regressiva do tempo definido. O cronômetro só para quando o tempo estabelecido se esgota, ajudando o usuário a manter um estudo focado e eficiente.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Marcação de Tarefas Concluídas:** Quando o tempo de estudo se encerra, o tópico é marcado como concluído, proporcionando ao usuário uma sensação de realização.
 
-### `npm test`
+## Como Usar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Acesse a página Alura Studies https://alura-studies-isaquea.vercel.app/
 
-### `npm run build`
+2. Digite o tópico que deseja estudar no campo de texto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Defina o tempo de estudo para esse tópico, não excedendo 1 hora e 30 minutos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Clique no botão "Adicionar" para incluir o tópico na lista de estudos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Repita os passos 2-4 para adicionar mais tópicos, se necessário.
 
-### `npm run eject`
+6. Selecione um tópico da lista que você deseja estudar.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+7. Clique no botão "Começar" para iniciar o cronômetro.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8. O cronômetro irá rodar até que o tempo se esgote.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+9. Quando o tempo acabar, o tópico será marcado como concluído na lista.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+10. Repita o processo para outros tópicos.
