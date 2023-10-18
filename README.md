@@ -2,6 +2,8 @@
 
 Alura Studies é uma aplicação web desenvolvida em React, utilizando TypeScript e frameworks de CSS como SCSS. Ela foi criada com o objetivo de auxiliar as pessoas a gerenciar seu tempo de estudo de forma mais eficaz. Com Alura Studies, os usuários podem definir tópicos de estudo, estabelecer o tempo de estudo para cada tópico e usar um cronômetro integrado para controlar seu progresso. Esta página permite que os estudantes maximizem sua produtividade e mantenham o foco em seus objetivos de aprendizado.
 
+![alura-studies](https://github.com/IsaqueA/alura-studies/assets/62123235/17d1b9cd-593c-4f95-a10c-507f85588c4c)
+
 ## Características Principais
 
 - **Controle de Tempo:** Os usuários podem definir o tempo de estudo para cada tópico, com um limite máximo de 1 hora e 30 minutos. Isso ajuda a evitar a procrastinação e manter o estudo dentro de limites gerenciáveis.
